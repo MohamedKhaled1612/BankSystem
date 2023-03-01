@@ -7,6 +7,7 @@ using namespace std;
 class Client:public Person{
     double balance ;
     public:
+    	
         Client(int,string,string,double);
         ~Client() ;
         void setBalance(double) ;
