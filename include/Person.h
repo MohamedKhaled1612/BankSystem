@@ -1,0 +1,28 @@
+#ifndef PERSON_H
+#define PERSON_H
+#include<iostream>
+using namespace std ;
+class Person
+{
+private:
+    int id;
+    string name, password;
+public:
+
+    //constrcutors
+    Person(int,string,string);
+    ~Person();
+
+    //setters
+    void setID(int) ;
+    void setName(string);
+    void setPassword(string);
+
+    //getters
+    int getID() ;
+    string getName() ;
+    string getPassword() ;
+
+};
+
+#endif // PERSON_H

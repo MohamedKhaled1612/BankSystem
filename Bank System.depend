@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1677594644 source:c:\users\mohamed khaled\desktop\programming basics assignments\bank system\main.cpp
+	<iostream>
+	"Validation.h"
+	"Client.h"
+
+1677590394 source:c:\users\mohamed khaled\desktop\programming basics assignments\bank system\src\person.cpp
+	"Person.h"
+	"Validation.h"
+
+1677520323 c:\users\mohamed khaled\desktop\programming basics assignments\bank system\include\person.h
+	<iostream>
+
+1677590953 c:\users\mohamed khaled\desktop\programming basics assignments\bank system\include\validation.h
+	<iostream>
+
+1677594980 source:c:\users\mohamed khaled\desktop\programming basics assignments\bank system\src\client.cpp
+	"Client.h"
+	"Validation.h"
+	<iostream>
+
+1677594591 c:\users\mohamed khaled\desktop\programming basics assignments\bank system\include\client.h
+	<iostream>
+	"Person.h"
+
