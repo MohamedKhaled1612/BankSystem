@@ -48,7 +48,7 @@ void Client::transferTo(double amount ,Client& recipient)
         cout<<"You can't transfer this amount\n";
         cout<<"Enter less amount: " ;
         cin>>amount ;
-        trasferTo(amount,recipient);
+        transferTo(amount,recipient);
     }
     else
     {
