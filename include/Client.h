@@ -14,7 +14,7 @@ class Client:public Person{
         double getBalance() ;
         void deposit(double) ;
         void withdraw(double) ;
-        void trasferTo(double,Client&);
+        void trasnferTo(double,Client&);
         void display() ;
 };
 

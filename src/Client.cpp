@@ -30,7 +30,7 @@ void Client::deposit(double amount)
 
 void Client::withdraw(double amount)
 {
-    if(balance-amount <1500)
+    if(balance-amount <0)
     {
         cout<<"You can't withdraw this amount\n";
         cout<<"Enter less amount: " ;
@@ -41,9 +41,9 @@ void Client::withdraw(double amount)
         balance-=amount ;
 }
 
-void Client::trasferTo(double amount,Client& recipient)
+void Client::transferTo(double amount ,Client& recipient)
 {
-    /*if(balance-amount <1500)
+    /*if(balance-amount <0)
     {
         cout<<"You can't transfer this amount\n";
         cout<<"Enter less amount: " ;
@@ -55,6 +55,7 @@ void Client::trasferTo(double amount,Client& recipient)
         this->balance-=amount ;
         recipient.balance+=amount ;
     }*/
+
     this->withdraw(amount) ;
     recipient.deposit(amount) ;
 }
