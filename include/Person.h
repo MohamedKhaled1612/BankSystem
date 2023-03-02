@@ -10,7 +10,7 @@ private:
 public:
 
     //constrcutors
-    Person(int,string,string);
+    Person(int id,string name,string password);
     ~Person();
 
     //setters
