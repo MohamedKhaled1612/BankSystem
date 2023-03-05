@@ -22,6 +22,7 @@ public:
     int getID() ;
     string getName() ;
     string getPassword() ;
+    void display();
 
 };
 

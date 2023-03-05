@@ -4,9 +4,9 @@
 // constructors at once
 Person::Person(int ID=0, string N="",string P="")
 {
-    id = ID;
-    name =Validation::validateName(N) ;
-    password = Validation::validatePassword(P);
+    id = setID(ID);
+    name = setName(N) ;
+    password = setPassword(P);
 }
 
 Person::~Person() {}
@@ -14,7 +14,7 @@ Person::~Person() {}
 //setters
 void Person::setID(int id)
 {
-    this ->id = id;
+    this->id = id;
 }
 
 void Person::setName(string N)
@@ -41,4 +41,11 @@ string Person::getName()
 string Person::getPassword()
 {
     return password;
+}
+
+void Person::display()
+{
+    cout <<"Name: " <<getName() <<endl ;
+    cout <<"Password" <<getPassword() <<endl ;
+    cout <<"ID: " <<getID() <<endl ;
 }
