@@ -1,10 +1,8 @@
 #include "Employee.h"
-#include "Validation.h"
-#include "Person.h"
 
-Employee::Employee(int id=0,string name="",string password="",double salary=5000):Person(id,name,password)
+Employee::Employee(int id=0,string name="",string password="",double balance=1500,double salary=5000):Client(id,name,password,balance)
 {
-    this->salary = setSalary(salary);
+    setSalary(salary);
 }
 
 Employee::~Employee()
@@ -24,6 +22,6 @@ void Employee::setSalary(double salary)
 
 void Employee::display()
 {
-    Person::display();
+    Client::display() ;
     cout<<"Salary: " <<getSalary() <<endl;
 }

@@ -1,12 +1,11 @@
 #include "Person.h"
-#include "Validation.h"
 // add default values to implement all
 // constructors at once
 Person::Person(int ID=0, string N="",string P="")
 {
-    id = setID(ID);
-    name = setName(N) ;
-    password = setPassword(P);
+    setID(ID);
+    setName(N) ;
+    setPassword(P);
 }
 
 Person::~Person() {}
@@ -46,6 +45,6 @@ string Person::getPassword()
 void Person::display()
 {
     cout <<"Name: " <<getName() <<endl ;
-    cout <<"Password" <<getPassword() <<endl ;
+    cout <<"Password: " <<getPassword() <<endl ;
     cout <<"ID: " <<getID() <<endl ;
 }

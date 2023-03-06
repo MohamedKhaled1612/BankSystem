@@ -6,5 +6,6 @@
 using namespace std;
 int main()
 {
-
+    Employee e(1,"","",0,0) ;
+    e.display() ;
 }

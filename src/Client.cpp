@@ -1,10 +1,7 @@
 #include "Client.h"
-#include "Validation.h"
-#include <iostream>
-using namespace std ;
 Client::Client(int id=0, string name="", string pass="", double balance=1500):Person(id,name,pass)
 {
-    this->balance = Validation::validateBalance(balance) ;
+    setBalance(balance);
 }
 
 Client::~Client()
@@ -62,8 +59,6 @@ void Client::transferTo(double amount ,Client& recipient)
 
 void Client::display()
 {
-    cout<<"Name: "<<getName()<<endl ;
-    cout<<"Password"<<getPassword()<<endl ;
-    cout<<"ID: "<<getID()<<endl ;
+    Person::display();
     cout<<"Balance: "<<getBalance()<<endl;
 }
