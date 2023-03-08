@@ -12,7 +12,7 @@ class Employee:public Client
         virtual ~Employee();
         double getSalary();
         void setSalary(double);
-        void display() ;
+        void display();
 };
 
 #endif // EMPLOYEE_H

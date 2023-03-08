@@ -4,10 +4,7 @@ Client::Client(int id=0, string name="", string pass="", double balance=1500):Pe
     setBalance(balance);
 }
 
-Client::~Client()
-{
-    //dtor
-}
+Client::~Client(){}
 
 void Client::setBalance(double balance)
 {
@@ -27,7 +24,7 @@ void Client::deposit(double amount)
 
 void Client::withdraw(double amount)
 {
-    if(balance-amount <0)
+    if(balance<amount)
     {
         cout<<"You can't withdraw this amount\n";
         cout<<"Enter less amount: " ;

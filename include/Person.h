@@ -6,7 +6,7 @@ using namespace std ;
 class Person
 {
 private:
-    int id;
+    int id ;
     string name, password;
 public:
 

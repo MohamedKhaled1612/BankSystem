@@ -67,6 +67,9 @@ public:
         }
         return salary;
     }
+
 };
+
+
 
 #endif // VALIDATION_H

@@ -2,10 +2,15 @@
 #include "Validation.h"
 #include "Client.h"
 #include "Employee.h"
-
+#include "Admin.h"
+#include"FileManager.h"
+#include <fstream>
 using namespace std;
 int main()
 {
-    Employee e(1,"","",0,0) ;
-    e.display() ;
+    FileManager fm;
+    fm.removeAllAdmins() ;
+    fm.removeAllEmployees() ;
+    fm.removeAllClients() ;
+
 }
