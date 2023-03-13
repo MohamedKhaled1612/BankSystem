@@ -1,4 +1,8 @@
 #include "Client.h"
+Client::Client():Person()
+{
+    setBalance(1500);
+}
 Client::Client(int id=0, string name="", string pass="", double balance=1500):Person(id,name,pass)
 {
     setBalance(balance);

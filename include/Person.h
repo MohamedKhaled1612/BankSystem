@@ -11,6 +11,7 @@ private:
 public:
 
     //constrcutors
+    Person();
     Person(int id,string name,string password);
     ~Person();
 

@@ -8,9 +8,4 @@
 using namespace std;
 int main()
 {
-    FileManager fm;
-    fm.removeAllAdmins() ;
-    fm.removeAllEmployees() ;
-    fm.removeAllClients() ;
-
 }

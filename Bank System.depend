@@ -57,7 +57,7 @@
 	<iostream>
 	"Person.h"
 
-1678238076 source:c:\users\mohamed khaled\desktop\programming basics assignments\banksystem\main.cpp
+1678740623 source:c:\users\mohamed khaled\desktop\programming basics assignments\banksystem\main.cpp
 	<iostream>
 	"Validation.h"
 	"Client.h"
@@ -66,44 +66,48 @@
 	"FileManager.h"
 	<fstream>
 
-1678143548 c:\users\mohamed khaled\desktop\programming basics assignments\banksystem\include\validation.h
+1678707679 c:\users\mohamed khaled\desktop\programming basics assignments\banksystem\include\validation.h
 	<iostream>
 
-1678110192 c:\users\mohamed khaled\desktop\programming basics assignments\banksystem\include\client.h
+1678710681 c:\users\mohamed khaled\desktop\programming basics assignments\banksystem\include\client.h
 	<iostream>
 	"Validation.h"
 	"Person.h"
 
-1678142978 c:\users\mohamed khaled\desktop\programming basics assignments\banksystem\include\person.h
+1678710714 c:\users\mohamed khaled\desktop\programming basics assignments\banksystem\include\person.h
 	"Validation.h"
 	<iostream>
 
-1678142917 c:\users\mohamed khaled\desktop\programming basics assignments\banksystem\include\employee.h
+1678739492 c:\users\mohamed khaled\desktop\programming basics assignments\banksystem\include\employee.h
 	<iostream>
+	<fstream>
 	"Client.h"
 	"Validation.h"
 
-1678142917 source:c:\users\mohamed khaled\desktop\programming basics assignments\banksystem\src\employee.cpp
+1678739492 source:c:\users\mohamed khaled\desktop\programming basics assignments\banksystem\src\employee.cpp
 	"Employee.h"
+	"FileManager.h"
+	"Parser.h"
 
-1678142963 source:c:\users\mohamed khaled\desktop\programming basics assignments\banksystem\src\person.cpp
+1678710681 source:c:\users\mohamed khaled\desktop\programming basics assignments\banksystem\src\person.cpp
 	"Person.h"
 
-1678143506 source:c:\users\mohamed khaled\desktop\programming basics assignments\banksystem\src\client.cpp
+1678710681 source:c:\users\mohamed khaled\desktop\programming basics assignments\banksystem\src\client.cpp
 	"Client.h"
 
-1678221152 c:\users\mohamed khaled\desktop\programming basics assignments\banksystem\include\admin.h
+1678740059 c:\users\mohamed khaled\desktop\programming basics assignments\banksystem\include\admin.h
 	<iostream>
 	"Employee.h"
 
-1678221124 source:c:\users\mohamed khaled\desktop\programming basics assignments\banksystem\src\admin.cpp
+1678740101 source:c:\users\mohamed khaled\desktop\programming basics assignments\banksystem\src\admin.cpp
 	"Admin.h"
 	"Employee.h"
-
-1678238430 source:c:\users\mohamed khaled\desktop\programming basics assignments\banksystem\src\filemanager.cpp
 	"FileManager.h"
 
-1678238272 c:\users\mohamed khaled\desktop\programming basics assignments\banksystem\include\filemanager.h
+1678710251 source:c:\users\mohamed khaled\desktop\programming basics assignments\banksystem\src\filemanager.cpp
+	"FileManager.h"
+
+1678710251 c:\users\mohamed khaled\desktop\programming basics assignments\banksystem\include\filemanager.h
 	<fstream>
 	<iostream>
 	<vector>
@@ -111,11 +115,19 @@
 	"Client.h"
 	"Employee.h"
 	"Admin.h"
+	"Parser.h"
 	<sstream>
 
-1678238272 c:\users\mohamed khaled\desktop\programming basics assignments\banksystem\include\datasourceinterface.h
+1678708638 c:\users\mohamed khaled\desktop\programming basics assignments\banksystem\include\datasourceinterface.h
+	<vector>
 	"Client.h"
 	"Employee.h"
 	"Admin.h"
+
+1678707292 c:\users\mohamed khaled\desktop\programming basics assignments\banksystem\include\parser.h
+	<sstream>
+	<Client.h>
+	<Employee.h>
+	<Admin.h>
 	<vector>
 

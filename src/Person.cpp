@@ -1,6 +1,12 @@
 #include "Person.h"
 // add default values to implement all
 // constructors at once
+Person::Person()
+{
+    setID(0) ;
+    setName("MmMmMmMm") ;
+    setPassword("MmMmMmMm");
+}
 Person::Person(int ID=0, string N="",string P="")
 {
     setID(ID);
