@@ -13,7 +13,6 @@ using namespace std ;
 
 class FileManager:public DataSourceInterface
 {
-    const char semicoloumn=';' ;
     const string client_file_name="Clients.txt";
     const string employee_file_name="Employee.txt";
     const string admin_file_name="Admin.txt";
